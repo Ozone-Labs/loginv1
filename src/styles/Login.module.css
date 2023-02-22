@@ -1,0 +1,66 @@
+.MainContainer {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  height: fit-content;
+  width: 50vw;
+  display: flex;
+  margin: 10em auto;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.MainContainer h2 {
+  text-align: center;
+  margin: 0.5em auto;
+}
+
+.divform {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: auto;
+}
+
+.inputCont {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+.inputCont input {
+  padding: 0.5em;
+  margin: 0.5em;
+  text-transform: capitalize;
+}
+
+.btnCont {
+  /* border: 1px solid black; */
+  display: flex;
+  width: fit-content;
+  margin: 0.5em auto;
+
+}
+
+.btnCont button {
+  margin: 0.5em;
+  width: 150px;
+  padding: 0.5em;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.btnCont button a {
+  text-decoration: none;
+  color: black;
+}
+
+.divform select {
+  padding: 0.5em;
+  margin: 0.5em;
+  text-transform: capitalize;
+
+}
